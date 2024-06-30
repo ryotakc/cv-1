@@ -1,6 +1,6 @@
 import { getAssetPath } from '@/app/lib/utils';
 import { Data } from '@/types/data';
-import { SiGithub, SiX } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiInstagram, SiQiita, SiX } from '@icons-pack/react-simple-icons';
 import { Calendar, Mail, Send } from 'lucide-react';
 
 const data: Data = {
@@ -15,7 +15,7 @@ const data: Data = {
   summary:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum unde, ducimus iusto ipsum repudiandae reprehenderit adipisci obcaecati quia consequuntur rem velit ab itaque saepe! Amet deserunt illo in nesciunt!',
   avatarUrl: getAssetPath() + '/locale/en/profile.webp',
-  skills: ['Next.js', 'Tailwind CSS', 'TypeScript' , 'Java', 'C++'],
+  skills: ['Next.js', 'Tailwind CSS', 'TypeScript / JavaScript' , 'Java', 'C++ / C', 'Lightroom'],
   education: [
     {
       school: 'Simon Fraser University',
@@ -39,27 +39,8 @@ const data: Data = {
       start: '2024',
       end: 'Present',
       description:
-        'Leading a team to develop new cloud-based solutions. Building efficient workflows and designing and implementing scalable applications using AWS. Technologies: Python, Django, React, AWS',
+        'Through my part-time experience as a kitchen staff at a ramen shop, I acquired various skills and knowledge. First, I learned efficient cooking techniques and the importance of delivering high-quality dishes within a limited time. I was also entrusted with managing ingredients and checking inventory, gaining experience in working methodically and accurately. Furthermore, I realized the indispensability of teamwork during busy peak times and deeply understood the importance of smooth communication and cooperation with other staff members. By consistently providing prompt and courteous service to customers, I was able to enhance the overall quality of service.',
     },
-    // {
-    //   company: 'Green Data Co., Ltd.',
-    //   link: 'https://wmda.info',
-    //   badges: ['Remote'],
-    //   title: 'Data Scientist',
-    //   start: '2018',
-    //   end: '2020',
-    //   description: `Contributing to the development of analytical tools that leverage big data to aid decision-making. Utilizing machine learning and data visualization to foster clients' business growth. Technologies: Python, R, SQL, Tableau`,
-    // },
-    // {
-    //   company: 'Cybersecurity Solutions',
-    //   link: 'https://wmda.info',
-    //   badges: [],
-    //   title: 'Senior Security Engineer',
-    //   start: '2017',
-    //   end: '2018',
-    //   description:
-    //     'Developing and implementing strategies to strengthen corporate cybersecurity. Involved in the development of cutting-edge threat detection tools to secure client data. Technologies: Java, Python, Linux, Network Security',
-    // },
   ],
   contacts: [
     {
@@ -75,55 +56,46 @@ const data: Data = {
       toolbar: true,
     },
     {
-      label: 'Meeting',
-      href: 'https://cal.com',
-      icon: Calendar,
-    },
-    {
-      label: 'Form',
-      href: 'https://tally.so',
-      icon: Send,
-    },
+      label: 'Send DM',
+      href: 'https://instagram.com/leok_can',
+      icon: SiInstagram,
+      toolbar: true,
+    }
   ],
   projects: [
     {
-      title: 'EcoTrack',
+      title: 'Portfolio',
       techStack: [
-        'Side Project',
-        'JavaScript',
         'React',
-        'Node.js',
-        'MongoDB',
-        'REST API',
+        'Next.js',
+        'TailwindCSS',
+        'TypeScript',
+        'Shadcn UI',
+        'Vercel',
       ],
       description:
         'An environmental impact tracking app for individuals and small businesses',
       link: {
         label: 'ecotrack.app',
-        href: 'https://wmda.info',
-      },
-    },
-    {
-      title: 'CodeCollab',
-      techStack: ['Side Project', 'Python', 'Flask', 'WebSocket', 'Docker'],
-      description:
-        'A real-time collaborative coding platform for remote pair programming',
-      link: {
-        label: 'codecollab.io',
-        href: 'https://wmda.info',
+        href: 'https://web-photo-leo.vercel.app',
       },
     },
   ],
   links: [
     {
-      label: 'XXX',
+      label: 'X.com',
+      href: 'https://twitter.com/leo_rkc',
+      icon: SiX,
+    },
+    {
+      label: 'GitHub',
       href: 'https://twitter.com/leo_rkc',
       icon: SiGithub,
     },
     {
-      label: 'XXX',
-      href: 'https://twitter.com/leo_rkc',
-      icon: SiX,
+      label: 'Qiita(JP)',
+      href: 'https://qiita.com/leo_rkc',
+      icon: SiQiita,
     },
   ],
 };

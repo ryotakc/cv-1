@@ -38,6 +38,13 @@ const data: Data = {
       start: '2024',
       end: '2027',
     },
+
+    {
+      school: 'クワントレンポリテクニック大学',
+      degree: '編入 インフォメーションテクノロジー',
+      start: '2023',
+      end: '2024',
+    },
     {
       school: '松本深志高等学校',
       degree: '高校卒業',
@@ -54,28 +61,8 @@ const data: Data = {
       start: '2024',
       end: '現在',
       description:
-        'チームを率いて新しいクラウドベースのソリューションを開発。効率的なワークフローを構築し、AWSを使用したスケーラブルなアプリケーションの設計と実装を行う。技術: Python, Django, React, AWS',
+        'ラーメン屋でのキッチンスタッフとしてのアルバイト経験を通じて、さまざまなスキルや知識を身につけることができました。まず、効率的な調理技術を習得し、限られた時間内で高品質な料理を提供する重要性を学びました。また、食材の管理や在庫の確認なども任され、計画的かつ正確な仕事の進め方が求められる場面での経験を積みました。さらに、忙しいピークタイムにはチームワークが欠かせないことを実感し、他のスタッフとの円滑なコミュニケーションと協力の大切さを深く理解しました。お客様に対しても迅速かつ丁寧な対応を心がけることで、サービスの質を向上させることができました。',
     },
-    // {
-    //   company: 'グリーンデータ株式会社',
-    //   link: 'https://www.jmdp.or.jp',
-    //   badges: ['業務委託'],
-    //   title: 'データサイエンティスト',
-    //   start: '2020',
-    //   end: '2019',
-    //   description:
-    //     'ビッグデータを活用して意思決定を支援する分析ツールの開発に貢献。機械学習とデータビジュアライゼーションを駆使して、顧客のビジネス成長を促進。技術: Python, R, SQL, Tableau',
-    // },
-    // {
-    //   company: 'サイバーセキュリティソリューションズ',
-    //   link: 'https://www.jmdp.or.jp',
-    //   badges: [],
-    //   title: 'シニアセキュリティエンジニア',
-    //   start: '2018',
-    //   end: '2017',
-    //   description:
-    //     '企業のサイバーセキュリティを強化するための戦略の立案と実装。最先端の脅威検出ツールの開発に携わり、クライアントのデータ保護を確保。技術: Java, Python, Linux, ネットワークセキュリティ',
-    // },
   ],
   contacts: [
     {
@@ -96,16 +83,6 @@ const data: Data = {
       icon: SiInstagram,
       
     },
-    // {
-    //   label: 'オンラインミーティング',
-    //   href: 'https://cal.com',
-    //   icon: Calendar,
-    // },
-    // {
-    //   label: 'フォーム',
-    //   href: 'https://tally.so',
-    //   icon: Send,
-    // },
   ],
   links: [
     {
@@ -144,16 +121,6 @@ const data: Data = {
       link: {
         label: 'ecotrack.app',
         href: 'https://web-photo-leo.vercel.app',
-      },
-    },
-    {
-      title: 'CodeCollab',
-      techStack: ['Side Project', 'Python', 'Flask', 'WebSocket', 'Docker'],
-      description:
-        'A real-time collaborative coding platform for remote pair programming',
-      link: {
-        label: 'codecollab.io',
-        href: 'https://www.jmdp.or.jp',
       },
     },
   ],
