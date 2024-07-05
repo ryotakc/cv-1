@@ -1,6 +1,6 @@
 import { getAssetPath } from '@/app/lib/utils';
 import { Data } from '@/types/data';
-import { SiGithub, SiX, SiQiita, SiInstagram } from '@icons-pack/react-simple-icons';
+import { SiGithub, SiX, SiQiita, SiInstagram, SiArc } from '@icons-pack/react-simple-icons';
 import { Calendar, Mail, Send } from 'lucide-react';
 import { SiNextdotjs, SiTailwindcss, SiTypescript } from '@icons-pack/react-simple-icons';
 
@@ -30,7 +30,7 @@ const data: Data = {
   //   icon: SiTypescript,
   //  ],
   // },
-  skills: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Java', 'C++', 'Lightroom'],
+  skills: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Java', 'C++', 'Lightroom', 'HTML5', 'CSS3', 'bash/zsh', ],
   education: [
     {
       school: 'サイモンフレーザー大学',
@@ -96,14 +96,19 @@ const data: Data = {
       icon: SiGithub,
     },
     {
-      label: 'Qiita',
-      href: 'https://qiita.com/leo_rkc',
-      icon: SiQiita,
-    },
-    {
       label: 'Instagram',
       href: 'https://instagram.com/leok_can',
       icon: SiInstagram,
+    },
+    {
+      label: 'Qiita(JP)',
+      href: 'https://qiita.com/leo_canada',
+      icon: SiQiita,
+    },
+    {
+      label: 'App(Using)',
+      href: 'https://arc.net/folder/55CE82FD-DE3C-4A90-AE8A-07C05C3EA833',
+      icon: SiArc,
     }
   ],
   projects: [
@@ -117,10 +122,10 @@ const data: Data = {
         'Vercel',
       ],
       description:
-        'An environmental impact tracking app for individuals and small businesses',
+        'A portfolio website that showcases my skills and experiences.',
       link: {
-        label: 'ecotrack.app',
-        href: 'https://web-photo-leo.vercel.app',
+        label: 'portfolio',
+        href: 'https://leok.vercel.app',
       },
     },
   ],

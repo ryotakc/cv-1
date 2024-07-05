@@ -1,6 +1,6 @@
 import { getAssetPath } from '@/app/lib/utils';
 import { Data } from '@/types/data';
-import { SiGithub, SiInstagram, SiQiita, SiX } from '@icons-pack/react-simple-icons';
+import { SiArc, SiGithub, SiInstagram, SiQiita, SiX } from '@icons-pack/react-simple-icons';
 import { Calendar, Mail, Send } from 'lucide-react';
 
 const data: Data = {
@@ -15,13 +15,19 @@ const data: Data = {
   summary:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum unde, ducimus iusto ipsum repudiandae reprehenderit adipisci obcaecati quia consequuntur rem velit ab itaque saepe! Amet deserunt illo in nesciunt!',
   avatarUrl: getAssetPath() + '/locale/en/profile.webp',
-  skills: ['Next.js', 'Tailwind CSS', 'TypeScript / JavaScript' , 'Java', 'C++ / C', 'Lightroom'],
+  skills: ['TypeScript / JavaScript' , 'Java', 'C++ / C', 'HTML5', 'CSS3' , 'Lightroom', 'Next.js', 'Tailwind CSS', 'bash/zsh', ],
   education: [
     {
       school: 'Simon Fraser University',
       degree: `Bachelor's in Computer Science - Software Systems`,
       start: '2024',
       end: 'Present',
+    },
+    {
+      school: 'Kwantlen Polytechnic University',
+      degree: 'Transfer (to SFU) - Information Technology',
+      start: '2023',
+      end: '2024',
     },
     {
       school: 'Matsumoto Fukashi High School',
@@ -74,10 +80,10 @@ const data: Data = {
         'Vercel',
       ],
       description:
-        'An environmental impact tracking app for individuals and small businesses',
+        'A portfolio website that showcases my skills and experiences.',
       link: {
         label: 'ecotrack.app',
-        href: 'https://web-photo-leo.vercel.app',
+        href: 'https://leok.vercel.app',
       },
     },
   ],
@@ -93,10 +99,20 @@ const data: Data = {
       icon: SiGithub,
     },
     {
+      label: 'Instagram',
+      href: 'https://instagram.com/leok_can',
+      icon: SiInstagram,
+    },
+    {
       label: 'Qiita(JP)',
-      href: 'https://qiita.com/leo_rkc',
+      href: 'https://qiita.com/leo_canada',
       icon: SiQiita,
     },
+    {
+      label: 'App(Using)',
+      href: 'https://arc.net/folder/55CE82FD-DE3C-4A90-AE8A-07C05C3EA833',
+      icon: SiArc,
+    }
   ],
 };
 

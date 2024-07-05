@@ -8,7 +8,7 @@ import {
     import { Badge } from './ui/badge';
     import { ArrowUpRight } from 'lucide-react';
     
-    interface Props {
+interface Props {
         title: string;
         description: string;
         techStack: readonly string[];
