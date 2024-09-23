@@ -212,6 +212,6 @@ export default async function Home({
     );
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
     return getStaticParams();
 }

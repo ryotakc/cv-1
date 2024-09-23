@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   },
 };
 
+
 export default function RootPage() {
   return (
     redirect(AppConfig.defaultLocale)
